@@ -1,0 +1,31 @@
+{
+  "dataset": "sampleBills_10000.json",
+  "network": "Local Hardhat Network",
+  "contractAddress": "0xB719422a0A484025c1A22a8dEEaFC67E81F43CfD",
+  "recordsRequested": 10000,
+  "recordsStored": 10000,
+  "recordsRetrieved": 10000,
+  "recordsVerified": 10000,
+  "totalWriteTimeMs": 64912.139,
+  "averageWriteLatencyMs": 6.438,
+  "p50WriteLatencyMs": 6.259,
+  "p95WriteLatencyMs": 7.764,
+  "p99WriteLatencyMs": 9.651,
+  "writeLatencyStdDevMs": 1.192,
+  "totalGasUsed": "1795020440",
+  "averageGasPerRecord": 179502.04,
+  "totalRetrievalTimeMs": 16517.037,
+  "averageRetrievalLatencyMs": 1.652,
+  "totalVerificationTimeMs": 15679.321,
+  "averageVerificationLatencyMs": 1.568,
+  "totalRetrievalAndVerificationTimeMs": 35242.386,
+  "throughputRecordsPerSecond": 154.054,
+  "successRatePercent": 100,
+  "benchmarkNotes": [
+    "Transactions are submitted sequentially.",
+    "Write latency measures submission through receipt retrieval.",
+    "Retrieval and verification are measured separately.",
+    "Expected hashes are independently calculated off-chain.",
+    "This is a local Hardhat benchmark, not an Ethereum mainnet benchmark."
+  ]
+}
